@@ -1,0 +1,31 @@
+{
+  "name": "react-apollo-test",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=10",
+    "npm": ">=6"
+  },
+  "engineStrict": true,
+  "author": "jet",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack-cli --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "2.6.4",
+    "graphql": "^14.4.2",
+    "graphql-tag": "2.10.1",
+    "react": "16.9.0",
+    "react-apollo": "3.0.1",
+    "react-dom": "16.9.0"
+  }
+}

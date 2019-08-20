@@ -1,0 +1,11 @@
+.vs/
+obj/
+/.work/
+/dist/*
+!/dist/index.html
+/node_modules/
+*.aps
+*.user
+.github
+npm-debug.log
+yarn-error.log
